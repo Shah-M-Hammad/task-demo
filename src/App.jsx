@@ -122,7 +122,7 @@ function Hero() {
 
       <div className="relative mx-auto max-w-5xl px-4 pb-12 pt-10 md:pb-16 md:pt-14">
         <div className="relative">
-          <div className="absolute left-3 top-4 z-10 h-20 w-20 rotate-[-12deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#f6c57a]/80 to-[#e6b56a]/80 backdrop-blur-sm">
+          <div className="absolute left-3 top-4 z-10 hidden h-20 w-20 rotate-[-12deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#f6c57a]/80 to-[#e6b56a]/80 backdrop-blur-sm md:block">
             <div className="flex h-full items-center justify-center p-2 text-center">
               <span className="text-[10px] font-bold uppercase tracking-tight text-[#0f1016]">
                 boost your
@@ -132,7 +132,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="absolute left-12 top-28 z-10 h-20 w-20 rotate-[10deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#a9f0d7]/80 to-[#99e0c7]/80 backdrop-blur-sm">
+          <div className="absolute left-12 top-28 z-10 hidden h-20 w-20 rotate-[10deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#a9f0d7]/80 to-[#99e0c7]/80 backdrop-blur-sm md:block">
             <div className="flex h-full items-center justify-center p-2 text-center">
               <span className="text-[10px] font-bold uppercase tracking-tight text-[#0f1016]">
                 thousands
@@ -142,7 +142,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="absolute left-0 top-44 z-10 h-20 w-20 rotate-[6deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#a6d8ff]/80 to-[#96c8ef]/80 backdrop-blur-sm">
+          <div className="absolute left-0 top-44 z-10 hidden h-20 w-20 rotate-[6deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#a6d8ff]/80 to-[#96c8ef]/80 backdrop-blur-sm md:block">
             <div className="flex h-full items-center justify-center p-2 text-center">
               <span className="text-[10px] font-bold uppercase tracking-tight text-[#0f1016]">
                 work
@@ -152,7 +152,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="absolute right-10 top-6 z-10 h-20 w-20 rotate-[10deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#ffd4e6]/80 to-[#efc4d6]/80 backdrop-blur-sm">
+          <div className="absolute right-10 top-6 z-10 hidden h-20 w-20 rotate-[10deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#ffd4e6]/80 to-[#efc4d6]/80 backdrop-blur-sm md:block">
             <div className="flex h-full items-center justify-center p-2 text-center">
               <span className="text-[10px] font-bold uppercase tracking-tight text-[#0f1016]">
                 free trial
@@ -161,7 +161,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="absolute right-2 top-32 z-10 h-20 w-20 rotate-[-12deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#d6ceff]/80 to-[#c6beef]/80 backdrop-blur-sm">
+          <div className="absolute right-2 top-32 z-10 hidden h-20 w-20 rotate-[-12deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#d6ceff]/80 to-[#c6beef]/80 backdrop-blur-sm md:block">
             <div className="flex h-full items-center justify-center p-2 text-center">
               <span className="text-[10px] font-bold uppercase tracking-tight text-[#0f1016]">
                 your time
@@ -171,7 +171,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="absolute right-14 top-44 z-10 h-20 w-20 rotate-[6deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#ffcaa8]/80 to-[#efba98]/80 backdrop-blur-sm">
+          <div className="absolute right-14 top-44 z-10 hidden h-20 w-20 rotate-[6deg] rounded-lg border-2 border-white/20 bg-gradient-to-br from-[#ffcaa8]/80 to-[#efba98]/80 backdrop-blur-sm md:block">
             <div className="flex h-full items-center justify-center p-2 text-center">
               <span className="text-[10px] font-bold uppercase tracking-tight text-[#0f1016]">
                 new apps
@@ -182,8 +182,8 @@ function Hero() {
           </div>
 
           <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
-            <div className="mb-6 grid size-16 place-items-center rounded-2xl ">
-           <img src={group} alt="" />
+            <div className="mb-6 grid size-16 place-items-center rounded-2xl">
+              <img src={group} alt="" />
             </div>
 
             <h1 className="text-balance text-4xl font-extrabold tracking-tight text-white md:text-6xl">
