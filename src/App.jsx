@@ -246,7 +246,6 @@ function WhatYouGet() {
       </div>
 
       <div className="mt-8 grid gap-6">
-        {/* Main purple card */}
         <div className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#d48ab0] to-[#8b4c93] shadow-soft">
           <div className="p-5 md:p-6">
             <div className="flex items-start justify-between gap-4">
@@ -292,7 +291,6 @@ function WhatYouGet() {
             </div>
           </div>
 
-          {/* Meetings card */}
           <div className="overflow-hidden rounded-2xl bg-gradient-to-br from-[#2f467a] to-[#243862] shadow-soft">
             <div className="p-5">
               <div className="h-40 w-full rounded-xl ">
@@ -307,14 +305,12 @@ function WhatYouGet() {
                     </p>
                   </div>
                 </div>
-                {/* Image placeholder for meetings */}
                 <img src={meeting} alt="" />
               </div>
             </div>
           </div>
         </div>
 
-        {/* View all link */}
         <div className="flex items-center justify-center pt-2">
           <a
             href="#"
@@ -517,13 +513,8 @@ function PricingCta() {
       <div className="rounded-2xl bg-[#f2f2f2] px-6 py-10 shadow-soft md:px-10">
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
           <div className="flex items-start gap-4">
-            <div className="mt-1 grid size-10 place-items-center rounded-xl bg-[#e3e3e3]">
-              <div className="grid grid-cols-2 gap-1">
-                <span className="block size-2 rounded bg-[#c9c9c9]" />
-                <span className="block size-2 rounded bg-[#c9c9c9]" />
-                <span className="block size-2 rounded bg-[#c9c9c9]" />
-                <span className="block size-2 rounded bg-[#c9c9c9]" />
-              </div>
+            <div className="mt-1 grid size-10 place-items-center rounded-xl ">
+            <img src={group} alt="" />
             </div>
             <div>
               <p className="text-base font-extrabold tracking-tight text-[#0f1016]">
@@ -556,13 +547,8 @@ function Footer() {
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-4">
             <div className="flex items-center gap-2">
-              <div className="grid size-9 place-items-center rounded-xl bg-white text-[#0f1016]">
-                <div className="grid grid-cols-2 gap-1">
-                  <span className="block size-2 rounded bg-[#0f1016]" />
-                  <span className="block size-2 rounded bg-[#0f1016]" />
-                  <span className="block size-2 rounded bg-[#0f1016]" />
-                  <span className="block size-2 rounded bg-[#0f1016]" />
-                </div>
+              <div className="grid size-9 place-items-center rounded-xl">
+                  <img src={group} alt="" />
               </div>
               <span className="text-base font-extrabold tracking-tight text-white">
                 Setapp
