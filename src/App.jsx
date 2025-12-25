@@ -83,9 +83,12 @@ function TopNav() {
           </div>
 
           <div className="flex items-center gap-3">
-            <button className="hidden rounded-full border border-white/20 bg-transparent px-5 py-2 text-sm font-medium text-white/80 hover:bg-white/5 hover:text-white transition-all md:inline-flex">
+            <Button
+              variant="ghost"
+              className="hidden md:inline-flex border-white/20 bg-transparent font-medium text-white/80 transition-all hover:bg-white/5 hover:text-white"
+            >
               Sign In
-            </button>
+            </Button>
 
             <button className="inline-flex rounded-full border border-white/10 bg-white/5 p-2 text-white/80 hover:bg-white/10 transition-colors md:hidden">
               <svg
